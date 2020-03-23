@@ -4,8 +4,9 @@ import pickle
 from scipy.spatial import distance
 
 #Training Data
-dataFeaturePath = './normalised_features_train.pickle'
+dataFeaturePath = '../Feature_Vectors/DataFeatures_Train.pickle'
 DataFeatures = pickle.load(open(dataFeaturePath, 'rb'))
+
 
 #Test Data
 testFeaturesPath = '../Feature_Vectors/DataFeatures_Match.pickle'
