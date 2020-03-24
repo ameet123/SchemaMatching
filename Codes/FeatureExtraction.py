@@ -91,8 +91,8 @@ def averageusedlength(charAtt, n, fixed_length):
     charAttribute = "".join(str(elm) for elm in charAtt)
     used_length = len(charAttribute)
     ratio = (used_length * 1.0) / (n * fixed_length)
-    print 'ratio--', ratio
-    print 'used_length--', used_length
+    # print 'ratio--', ratio
+    # print 'used_length--', used_length
     return round(ratio, 4)
 
 
